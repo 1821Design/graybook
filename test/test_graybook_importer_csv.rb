@@ -1,12 +1,12 @@
 require 'test/unit'
 require File.join( File.dirname(__FILE__), '../lib/graybook.rb' )
-require File.join( File.dirname(__FILE__), 'test_helper.rb' )
+#require File.join( File.dirname(__FILE__), 'test_helper.rb' )
 require 'tempfile'
 require 'mocha'
 
 class TestGraybookImporterCsv < Test::Unit::TestCase
 
-  include TestHelper
+  #include TestHelper
 
   def setup
     @importer = Graybook::Importer::Csv.new

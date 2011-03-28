@@ -1,7 +1,8 @@
 require 'rubygems'
 gem 'mechanize', '>= 0.7.0'
 require 'mechanize'
-require 'generator' # for SyncEnumerator
+Generator = Enumerator
+#require 'generator' # for SyncEnumerator
 
 # Patch Mechanize's broken html unescaping Mechanize 0.6.11
 class Mechanize

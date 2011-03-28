@@ -13,8 +13,8 @@ begin
     s.homepage    = "http://github.com/kojul/gray"
     s.description = "Graybook is used to import email contact lists from popular webmail sites. Currently supported are AOL/AIM, Yahoo, Hotmail/Live/MSN, and Google Mail (although not Google Apps Mail yet)."
     s.authors     = ["kojul", "Contentfree"]
-    s.add_dependency('hpricot', '>= 0.7.0')
-    s.add_dependency('mechanize', '>= 0.7.0')
+    s.add_dependency('hpricot', '>= 0.8.4')
+    s.add_dependency('mechanize', '>= 1.0.0')
     s.add_dependency('fastercsv', '>= 1.2.0')
   end
 rescue LoadError
